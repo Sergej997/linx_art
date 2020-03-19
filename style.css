@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(222, 192, 222);
+    font-family: "Nunito", sans-serif;
+}
+
+#sve {
+    background-color: rgb(222, 192, 222);
+}
+
+h1 {
+    color:whitesmoke;
+}
+
+h1:hover {
+    color:black;
+}
+
+h2 {
+    color:#ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color:black;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 90px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color:white;
+}
+
+#mainNavbar .nav-link:hover {
+    color:#ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+    color:#ea1c2c;
+}
+
+#heading-group span{
+    color:red;
+}
+
+#heading-group h1{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 750ms;
+    height: 40px;
+}
+
+.slika {
+    box-sizing: border-box;
+}
+/*
+
+.div-slika {
+    margin: 0%;
+}
+
+.div-pading {
+    padding: 0%;
+}*/
+
+.jumbotron {
+    background: #1a000d;
+    opacity: 0.85;
+}
+
+.jumbotron h1{
+    font-size: 4rem;
+}
+
+.jumbotron h1:hover{
+    color: orange;
+}
+
+#gallery {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('44.png')center/cover
+    no-repeat;
+    margin-bottom: 250px;
+}
+
+.images {
+    flex: 0 0 55%;
+    min-height: 60vh;
+    background: url('images/izabrane/0.PNG')center/cover
+    no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 10px black;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid green;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px black;
+    outline: none;
+}
+
+.prevBtn {
+    position:absolute;
+    top:45%;
+    left:0%;
+    transform: translate(-45%,-15%);
+}
+
+.nextBtn {
+    position:absolute;
+    top:45%;
+    right:0%;
+    transform: translate(45%,-15%);
+}
+
+#banana {
+    font-family: Caveat;
+    font-size: 23px;
+}
+
+#space {
+    font-family: Caveat;
+    font-size: 23px;
+}
+
+#oldman {
+    font-family: Caveat;
+    font-size: 23px;
+}
+
+#footer {
+    background: black;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:active {
+    background: lightgrey;
+    box-shadow: 1px 1px grey;
+}
+
+.btn:hover {
+    background: green;
+    color:white;
+}
+
+@media (max-width: 1200px) {
+    #heading-group h1{
+        font-weight: 100;
+        font-size: 2.2rem;
+    }
+}
